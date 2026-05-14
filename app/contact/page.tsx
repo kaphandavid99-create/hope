@@ -81,8 +81,8 @@ const Page = () => {
 
     emailjs
       .sendForm(
-        process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID || "service_1ecldhf",
-        process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID || "template_47btqz9",
+        process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID || "service_n2medzv",
+        process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID || "template_1t29zij",
         form.current,
         {
           publicKey: process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY || "N2zpaB5SDcOpZQu8u",
